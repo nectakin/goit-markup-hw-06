@@ -283,7 +283,7 @@ ul{
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/mobile/mobile-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -313,7 +313,7 @@ ul{
     .solutions{
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/people-office\ 1.jpg);
+                url(../images/mobile/mobile-office-2.jpg);
     }
 }
 
@@ -322,7 +322,7 @@ ul{
         padding: 122px 0;
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/people-office\ 1.jpg);
+                url(../images/tablet/tablet-office.jpg);
     }
 
         @media (min-device-pixel-ratio: 2),
@@ -331,7 +331,7 @@ ul{
             .solutions {
                 background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),
                         rgba(46, 47, 66, 0.7)),
-                    url(../images/people-office\ 1.jpg);
+                    url(../images/tablet/tablet-office-2.jpg);
         }
     }
 }
@@ -341,7 +341,7 @@ ul{
     .solutions{
         background-image: linear-gradient(to bottom,rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/people-office\ 1.jpg);
+                url(../images/desktop/desktop-office-2.jpg);
         min-width: 1440px;
         padding: 188px;
         text-align: center;
@@ -354,7 +354,7 @@ ul{
     .solutions {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office\ 1.jpg);
+            url(../images/desktop/desktop-office-3.jpg);
     } 
   }
 }
@@ -544,8 +544,10 @@ ul{
 
 .our-team{
     background-color: #f4f4fd;
-    padding: 120px 0;
+     padding: 96px 0; 
 }
+
+
 .our-team-header{
     font-weight: 500;
     font-size: 36px;
@@ -586,15 +588,16 @@ ul{
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
     0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    width: 100%;
+    
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .team-list {
         width: calc((100% - 24px) / 2);
 
     }
-}
+} */
+
 @media screen and (min-width: 1158px) {
     .team-list {
         width: calc((100% - 24px * 3) / 4);
@@ -625,11 +628,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 50px;
-    height: 100%;
-    width: 100%;
 }
 
 .social-link{
@@ -661,6 +660,7 @@ background-color: #404bbf;
 }
 .social-icon{
     height: 40px;
+    width: 40px;
 }
 
 
